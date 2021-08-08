@@ -1,0 +1,230 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      /* header start */
+    /* nav start */
+    .logo {
+       
+        font-size: 22px;
+        
+    }
+    .c_dm {
+        min-width: 250px;
+        padding: 5px 10px;
+    }
+    .c_dm[data-bs-popper] {
+        left: -2px;
+        margin-top: 10px;
+    }
+    /* header end */
+    
+    /* slider start */
+    .c_content {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    .c_content h1 {
+        font-family: 'lato-bold';
+        color: #ffff;
+        
+        margin-bottom: 25px;
+    }
+
+  
+    .c_content .btn-slide {
+        width: 130px;
+        height: 40px;
+
+    }
+    /* slider end */
+
+    /* service start */
+    .service {
+        margin-bottom: 50px;
+    }
+    .s_service{
+        padding: 60px 20px 30px;
+    
+    }
+
+
+    .ser_icon{
+        margin-top: -82px;
+    }
+    .t_arrow {
+        
+        height: 40px;
+      
+    }
+    .c_h1 {
+        font-family: 'lato-regular';
+        color: #333333;
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .t-pra {
+        margin-bottom: 60px;
+        padding: 0 8px;
+        word-spacing: 1px;
+    }
+
+    /* service end */
+    /* about start */
+    section.about{
+        margin-bottom: 50px;
+    }
+    .content-right h2 {
+        font-family: 'lato-regular';
+        color: #333333;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .content-right .pra-1 {
+        margin-bottom: 20px;
+        word-spacing: 0px;
+    }
+    .content-right .pra-2 {
+        margin-bottom: 20px;
+        word-spacing: 0px;
+    }
+    .content-right .btn-about {
+        width: 150px;
+    }
+    /* about end */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* header start */
+    /* nav start */
+    .c_dm[data-bs-popper] {
+        left: 0px;
+        margin-top: 10px;
+    }
+    /* header end */
+
+    /* slider start */
+    .c_content {
+        margin-top: 140px;
+        margin-bottom: 60px;
+    }
+
+    
+    /* slider end */
+    /* service start */
+    .service {
+
+        margin-bottom: 50px;
+    }
+    .s_service{
+        padding: 60px 20px 30px;
+    }
+    .ser_icon{
+        margin-top: -82px;
+    }
+
+    /* service end */
+    
+    /* about start */
+    section.about{
+        margin-bottom: 50px;
+    }
+    .t-pra {
+        margin-bottom: 80px;
+        word-spacing: 1px;
+    }
+    /* about end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    /* nav start */
+    .c_dm[data-bs-popper] {
+        left: 0px;
+        margin-top: 10px;
+    }
+    /* header end */
+    /* slider start */
+    .c_content {
+        margin-top: 150px;
+        margin-bottom: 120px;
+    }
+    .c_content h1{
+        margin-bottom: 30px;
+    }
+   /* slider end */
+   /* service start */
+   
+   .t-pra {
+        margin-bottom: 100px;
+        word-spacing: 1px;
+    }
+   /* service end */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* slider start here */
+    .c_content{
+        margin-top: 160px;
+        margin-bottom: 120px;
+    }
+    /* slider end here */
+    /* service start here */
+    .c_h1 {
+        font-family: 'lato-regular';
+        color: #333333;
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    /* service end here */
+    /* about start */
+    .content-right h2 {
+       
+        margin-bottom: 25px;
+    }
+    .content-right .pra-1 {
+        margin-bottom: 15px;
+        word-spacing: 2px;
+       
+    }
+    .content-right .pra-2 {
+        margin-bottom: 17px;
+        word-spacing: 1px;
+    }
+    /* about end */
+   
+}
+
+
+/* X-Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+
+/* XX-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px){
+
+    /* about start */
+    .content-right h2 {
+       
+        margin-bottom: 45px;
+    }
+    .content-right .pra-1 {
+        margin-bottom: 35px;
+       
+    }
+    .content-right .pra-2 {
+        margin-bottom: 42px;
+        word-spacing: 1px;
+    }
+    /* about end */
+}
